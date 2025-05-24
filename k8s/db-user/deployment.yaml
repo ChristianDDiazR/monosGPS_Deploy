@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: user-db
-          image: fyjo/monosgps:usuarios-db
+          image: fyjo/monosgps-usuarios-db:v1.0.0
           ports:
             - containerPort: 5432
           env:

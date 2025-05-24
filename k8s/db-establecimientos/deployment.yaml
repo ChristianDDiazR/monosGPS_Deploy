@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: establecimientos-db
-          image: fyjo/monosgps:establecimientos-db
+          image: fyjo/monosgps-establecimientos-db:v1.0.0
           ports:
             - containerPort: 5432
           env:
