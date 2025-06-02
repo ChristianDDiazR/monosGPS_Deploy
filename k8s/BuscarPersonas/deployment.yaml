@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: buscarpersonas
-          image: fyjo/monosgps-buscarpersonas:53b949c
+          image: fyjo/monosgps-buscarpersonas:2914438
           ports:
             - containerPort: 8082
